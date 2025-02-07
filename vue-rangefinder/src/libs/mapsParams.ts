@@ -17,22 +17,22 @@ import rondoThumb from '@/assets/img/maps/thumbs/Rondo.jpg';
 import { svgGrid } from './mapGrids';
 
 export type mapNamesUnion 
-    = 'erangel'
-    | 'miramar'
-    | 'taego'
-    | 'sanhok'
-    | 'vikendi'
-    | 'deston'
-    | 'rondo';
+    = '艾伦格'
+    | '米拉玛'
+    | '泰戈'
+    | '萨诺'
+    | '维塞迪'
+    | '帝斯顿'
+    | '荣都';
 
 export const mapList : Array<mapNamesUnion> = [
-    'erangel',
-    'miramar',
-    'taego',
-    'sanhok',
-    'vikendi',
-    'deston',
-    'rondo',
+    '艾伦格',
+    '米拉玛',
+    '泰戈',
+    '萨诺',
+    '维塞迪',
+    '帝斯顿',
+    '荣都',
 ];
 
 export type mapSizes = '4x4' | '8x8';
@@ -56,56 +56,56 @@ const zoomMap: {[key in mapSizes]: number} = {
 }
 
 const mapsParams: MapsParamsMap = {
-    erangel: {
-        mapName: 'Erangel',
+    艾伦格: {
+        mapName: '艾伦格',
         size: "8x8",
         layout: erangelMapPic,
         thumbnail: erangelThumb,
         grid: svgGrid["8x8"],
         defaultZoom: zoomMap["8x8"],
     },
-    miramar: {
-        mapName: 'Miramar',
+    米拉玛: {
+        mapName: '米拉玛',
         size: "8x8", 
         layout: miramarMapPic,
         thumbnail: miramarThumb,
         grid: svgGrid["8x8"],
         defaultZoom: zoomMap["8x8"],
     },
-    taego: {
-        mapName: 'Taego',
+    泰戈: {
+        mapName: '泰戈',
         size: "8x8",
         layout: taegoMapPic,
         thumbnail: taegoThumb,
         grid: svgGrid["8x8"],
         defaultZoom: zoomMap["8x8"],
     },
-    sanhok: {
-        mapName: 'Sanhok',
+    萨诺: {
+        mapName: '萨诺',
         size: "4x4",
         layout: sanhokMapPic,
         thumbnail: sanhokThumb,
         grid: svgGrid["4x4"],
         defaultZoom: zoomMap["4x4"],
     },
-    vikendi: {
-        mapName: 'Vikendi',
+    维塞迪: {
+        mapName: '维塞迪',
         size: "8x8",
         layout: vikendiMapPic,
         thumbnail: vikendiThumb,
         grid: svgGrid["8x8"],
         defaultZoom: zoomMap["8x8"],
     },
-    deston: {
-        mapName: 'Deston',
+    帝斯顿: {
+        mapName: '帝斯顿',
         size: "8x8",
         layout: destonMapPic,
         thumbnail: destonThumb,
         grid: svgGrid["8x8"],
         defaultZoom: zoomMap["8x8"],
     },
-    rondo: {
-        mapName: 'Rondo',
+    荣都: {
+        mapName: '荣都',
         size: "8x8",
         layout: rondoMapPic,
         thumbnail: rondoThumb,
