@@ -14,7 +14,7 @@ export default {
 <template>
 <div class="navbar">
   <div class="navbar__menu">
-    <div class = "navbar__logo" @click="$router.push('/')">[PUBG] RangeFinder</div>
+    <div class = "navbar__logo" @click="$router.push('/')">首页</div>
     <div 
       class="navbar__btns"
       v-for="map in mapList"
@@ -30,16 +30,13 @@ export default {
       </div>
     </div>
   </div>
-  <div class="navbar__cr">
-    <a href="https://github.com/m208" target="_blank">© m208 2023</a>
-  </div>
 </div>
 </template>
 
 <style scoped>
 .navbar {
   height: 50px;
-  background-color: lightgray;
+  background-color: lightwhite;
   display: flex;
   align-items: center;
   justify-content: space-between;

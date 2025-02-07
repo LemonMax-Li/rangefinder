@@ -34,7 +34,7 @@ export default {
 .card{
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: black;
   border-radius: 5px;
   cursor: pointer;
   transition-duration: 250ms;
